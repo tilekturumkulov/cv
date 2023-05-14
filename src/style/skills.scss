@@ -1,0 +1,34 @@
+.skills{
+    &__title{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 62px;
+        text-align: center;
+    }
+    &__content{
+        margin-top: 75px;
+        display: flex;
+        justify-content: space-between;
+        background: #202020;
+        padding: 60px 80px; 
+        &-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &_procent{
+                font-weight: 700;
+                font-size: 52px;
+                line-height: 94px;
+                text-align: center;
+                color: #4F4F4F;
+            }
+            &_name{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 31px;
+                text-align: center;
+                color: #27AE60;
+            }
+        }
+    }
+}

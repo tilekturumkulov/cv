@@ -1,0 +1,44 @@
+.greeting{
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__info{
+        &-title{
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 62px;
+        }
+        &-subtitle{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            color: #828282;
+            margin: 10px 0 35px;
+        }
+        &-btns{
+            display: flex;
+            column-gap: 10px;
+            display: flex;
+            &_download{
+                background: #27AE60;
+                padding: 12px 27px;
+                border: none;
+            }
+            &_git{
+                border: 1px solid #F2F2F2;
+                padding: 12px 27px;
+                background: #171717;
+            }
+        }
+    }
+    &__img{
+        background: rgba(30, 29, 29, 0.2);
+        border: 40px solid #202020;
+        width: 600px;
+        height: 600px;
+        background: url(../components/Greeting/images/main.jpg) center/cover no-repeat;
+        border-radius: 500px;
+    }
+}

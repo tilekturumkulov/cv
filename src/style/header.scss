@@ -1,0 +1,21 @@
+.header{
+    &__content{
+        padding: 40px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 47px;
+    }
+    &__links{
+        display: flex;
+        column-gap: 70px;
+        &-item{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+        }
+    }
+}

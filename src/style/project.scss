@@ -1,0 +1,32 @@
+.project{
+    &__title{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 62px;
+        text-align: center;
+        margin: 100px 0;
+    }
+    &__row{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        &-item{
+            background: #202020;
+        }
+        &-img{
+            width: 100%;
+        }
+        &-title{
+            font-weight: 700;
+            font-size: 25px;
+            color: #27AE60;
+            padding: 15px 15px 5px;
+        }
+        &-desc{
+            font-weight: 700;
+            font-size: 18px;
+            color: #4F4F4F;
+            padding: 5px 15px 15px;
+        }
+    }
+}
