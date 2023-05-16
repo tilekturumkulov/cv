@@ -30,3 +30,24 @@
         }
     }
 }
+
+
+@media (max-width: 1000px) {
+    .project{
+        &__row{
+            grid-template-columns: repeat(2, 1fr);   
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .project{
+        &__row{
+            grid-template-columns: 1fr;   
+            padding: 10px;
+        }
+        &__title{
+            font-size: 32px;
+        }
+    }
+}

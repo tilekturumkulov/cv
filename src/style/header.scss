@@ -19,3 +19,31 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .header{
+        &__links{
+            column-gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .header{
+        &__links{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .header{
+        &__links{
+            display: none;
+            // justify-content: space-between;
+        }
+    }
+}
+
+

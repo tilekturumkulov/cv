@@ -35,3 +35,15 @@
         }
     }
 }
+
+
+@media (max-width: 460px) {
+    .footer{
+        &__content{
+            justify-content: center;
+        }
+        &__links{
+            display: none;
+        }
+    }
+}

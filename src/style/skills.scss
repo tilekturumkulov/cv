@@ -32,3 +32,30 @@
         }
     }
 }
+
+
+@media (max-width: 700px) {
+    .skills{
+        &__content{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            padding: 40px 40px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .skills{
+        &__title{
+            font-size: 32px;
+        }
+        &__content{
+            &-item{
+                &_procent{
+                    font-size: 42px;
+                }
+            }
+        }
+    }
+}

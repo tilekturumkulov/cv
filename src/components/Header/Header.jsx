@@ -1,4 +1,5 @@
 const Header = ({scroll}) => {
+
     return (
         <header className="header" id="header">
             <div className="container">
@@ -9,6 +10,7 @@ const Header = ({scroll}) => {
                         <a href="#project" onClick={scroll()} className="header__links-item">Проекты</a>
                         <a href="#footer" onClick={scroll()} className="header__links-item">Контакты</a>
                     </div>
+                    
                 </div>
             </div>
         </header>
